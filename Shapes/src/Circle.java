@@ -30,7 +30,7 @@ private double ns;
 	  Circle c = new Circle();
 	  System.out.println(c.getWidth());
 	  System.out.println(c.getHeight());
-	
+	 
 	  
   }
 }
