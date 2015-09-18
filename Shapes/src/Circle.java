@@ -20,17 +20,27 @@ private double ns;
 	  return radius *2;
   }
   
+<<<<<<< HEAD
   public double getNumSides()
   {
 	  return ns;
   }
   
   
+=======
+  public double getPerimeter(){
+	  return 2* radius * 3.14;
+  }
+>>>>>>> 06f0c06db204154c8a911a9207496bad0f991a8a
   public static void main(String [] args){
 	  Circle c = new Circle();
 	  System.out.println(c.getWidth());
 	  System.out.println(c.getHeight());
+<<<<<<< HEAD
 	 
 	  
+=======
+	  System.out.println(c.getPerimeter());
+>>>>>>> 06f0c06db204154c8a911a9207496bad0f991a8a
   }
 }
